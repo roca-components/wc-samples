@@ -18,6 +18,9 @@ indent_style = space
 indent_style = space
 indent_size = 2
 
+[.eslintrc]
+indent_style = space
+
 [COMMIT_EDITMSG]
 trim_trailing_whitespace = false
 max_line_length = 72
