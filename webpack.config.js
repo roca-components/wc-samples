@@ -1,4 +1,4 @@
-/*eslint-env node */
+/* eslint-env node */
 "use strict";
 
 let path = require("path");
@@ -6,7 +6,7 @@ let path = require("path");
 module.exports = {
 	entry: "./index.js",
 	output: {
-		path: __dirname + "/dist",
+		path: path.join(__dirname, "dist"),
 		filename: "bundle.js"
 	},
 	resolve: {

@@ -1,4 +1,4 @@
-extends: eslint:recommended
+extends: standard
 env:
     es6: true
 parserOptions:
@@ -23,8 +23,23 @@ rules:
     - always
     no-var:
     - 2
-    no-unused-vars:
-    - 2
-    - args: none
     no-console:
     - 1
+    space-before-function-paren:
+    - 2
+    - never
+    keyword-spacing:
+    - 2
+    - overrides:
+        if: { after: false }
+        for: { after: false }
+        while: { after: false }
+    operator-linebreak:
+    - 2
+    - after
+    dot-location:
+    - 2
+    - object
+    arrow-parens:
+    - 2
+    - as-needed
