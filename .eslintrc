@@ -1,0 +1,45 @@
+extends: standard
+env:
+    es6: true
+parserOptions:
+    sourceType: module
+rules:
+    linebreak-style:
+    - 2
+    - unix
+    indent:
+    - 2
+    - tab
+    max-len:
+    - 1
+    - 90
+    - 4
+    quotes:
+    - 2
+    - double
+    - avoid-escape
+    semi:
+    - 2
+    - always
+    no-var:
+    - 2
+    no-console:
+    - 1
+    space-before-function-paren:
+    - 2
+    - never
+    keyword-spacing:
+    - 2
+    - overrides:
+        if: { after: false }
+        for: { after: false }
+        while: { after: false }
+    operator-linebreak:
+    - 2
+    - after
+    dot-location:
+    - 2
+    - object
+    arrow-parens:
+    - 2
+    - as-needed
